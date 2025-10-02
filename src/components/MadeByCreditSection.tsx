@@ -5,7 +5,7 @@ const MadeByCreditSection = () => {
     <section className="py-8 bg-background border-t">
       <div className="container mx-auto px-4">
         <a
-          href="https://egestor.com.br"
+          href="https://egestor.com.br/cadastro.php"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center justify-center gap-3 hover:opacity-80 transition-smooth"
