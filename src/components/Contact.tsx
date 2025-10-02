@@ -41,12 +41,12 @@ const Contact = () => {
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">Telefone</h4>
                   <a
-                    href="https://wa.me/5511949680764"
+                    href="https://wa.me/5511971145712"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-primary transition-smooth"
                   >
-                    (11) 94968-0764
+                    (11) 97114-5712
                   </a>
                 </div>
               </div>
@@ -58,10 +58,10 @@ const Contact = () => {
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">E-mail</h4>
                   <a
-                    href="mailto:usamazei@gmail.com"
+                    href="mailto:sambelar@hotmail.com"
                     className="text-muted-foreground hover:text-primary transition-smooth"
                   >
-                    usamazei@gmail.com
+                    sambelar@hotmail.com
                   </a>
                 </div>
               </div>
@@ -121,7 +121,7 @@ const Contact = () => {
               Visite nossa loja ou fale conosco pelo WhatsApp
             </p>
             <a
-              href="https://wa.me/5511949680764"
+              href="https://wa.me/5511971145712"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-8 py-4 bg-accent hover:bg-accent/90 text-accent-foreground rounded-xl font-semibold text-lg shadow-glow transition-smooth"

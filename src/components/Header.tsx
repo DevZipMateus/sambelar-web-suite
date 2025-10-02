@@ -47,7 +47,7 @@ const Header = () => {
               Contato
             </button>
             <Button asChild variant="default" className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-elegant">
-              <a href="https://wa.me/5511949680764" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/5511971145712" target="_blank" rel="noopener noreferrer">
                 Fale Conosco
               </a>
             </Button>
@@ -75,7 +75,7 @@ const Header = () => {
                 Contato
               </button>
               <Button asChild variant="default" className="bg-primary hover:bg-primary/90 text-primary-foreground w-full">
-                <a href="https://wa.me/5511949680764" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/5511971145712" target="_blank" rel="noopener noreferrer">
                   Fale Conosco
                 </a>
               </Button>

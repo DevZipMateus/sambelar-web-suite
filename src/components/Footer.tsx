@@ -61,22 +61,22 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <a
-                  href="https://wa.me/5511949680764"
+                  href="https://wa.me/5511971145712"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 text-primary-foreground/80 hover:text-accent transition-smooth"
                 >
                   <Phone className="h-4 w-4" />
-                  (11) 94968-0764
+                  (11) 97114-5712
                 </a>
               </li>
               <li>
                 <a
-                  href="mailto:usamazei@gmail.com"
+                  href="mailto:sambelar@hotmail.com"
                   className="flex items-center gap-2 text-primary-foreground/80 hover:text-accent transition-smooth"
                 >
                   <Mail className="h-4 w-4" />
-                  usamazei@gmail.com
+                  sambelar@hotmail.com
                 </a>
               </li>
               <li>
