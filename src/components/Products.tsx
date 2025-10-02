@@ -43,8 +43,8 @@ const products = [
 
 const Products = () => {
   return (
-    <section id="produtos" className="py-24 bg-background">
-      <div className="container mx-auto px-4">
+    <section id="produtos" className="py-12 sm:py-16 md:py-24 bg-background w-full overflow-x-hidden">
+      <div className="container mx-auto px-4 sm:px-6 w-full">
         <div className="max-w-6xl mx-auto">
           {/* Section Header */}
           <div className="text-center mb-16">

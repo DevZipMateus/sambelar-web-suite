@@ -2,8 +2,8 @@ import { MapPin, Phone, Mail, Clock, Instagram } from "lucide-react";
 
 const Contact = () => {
   return (
-    <section id="contato" className="py-24 bg-secondary/50">
-      <div className="container mx-auto px-4">
+    <section id="contato" className="py-12 sm:py-16 md:py-24 bg-secondary/50 w-full overflow-x-hidden">
+      <div className="container mx-auto px-4 sm:px-6 w-full">
         <div className="max-w-6xl mx-auto">
           {/* Section Header */}
           <div className="text-center mb-16">
@@ -98,7 +98,7 @@ const Contact = () => {
             </div>
 
             {/* Map */}
-            <div className="h-[500px] rounded-xl overflow-hidden shadow-elegant">
+            <div className="h-[300px] sm:h-[400px] md:h-[500px] rounded-xl overflow-hidden shadow-elegant w-full">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.0974358607843!2d-46.63592!3d-23.5629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDMzJzQ2LjQiUyA0NsKwMzgnMDkuMyJX!5e0!3m2!1spt-BR!2sbr!4v1234567890"
                 width="100%"

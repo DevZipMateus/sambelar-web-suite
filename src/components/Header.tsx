@@ -29,7 +29,7 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center gap-3">
-            <img src={logo} alt="Sambelar Móveis" className="h-36 w-auto" />
+            <img src={logo} alt="Sambelar Móveis" className="h-16 sm:h-20 md:h-24 lg:h-28 w-auto" loading="lazy" />
           </div>
 
           {/* Desktop Navigation */}

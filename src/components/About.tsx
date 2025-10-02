@@ -2,8 +2,8 @@ import { Award, Heart, Shield } from "lucide-react";
 
 const About = () => {
   return (
-    <section id="sobre" className="py-24 bg-secondary/50">
-      <div className="container mx-auto px-4">
+    <section id="sobre" className="py-12 sm:py-16 md:py-24 bg-secondary/50 w-full overflow-x-hidden">
+      <div className="container mx-auto px-4 sm:px-6 w-full">
         <div className="max-w-6xl mx-auto">
           {/* Section Header */}
           <div className="text-center mb-16">

@@ -11,13 +11,15 @@ const Hero = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: 'url(/hero-bg.jpg)' }}
+        role="img"
+        aria-label="Background da Sambelar Móveis"
       />
       
       {/* Dark overlay for text readability */}
       <div className="absolute inset-0 bg-black/50" />
 
-      <div className="container mx-auto px-4 relative z-10">
-        <div className="max-w-4xl mx-auto text-center bg-white/80 backdrop-blur-sm rounded-3xl p-8 md:p-12 lg:p-16 shadow-xl">
+      <div className="container mx-auto px-4 sm:px-6 relative z-10 w-full">
+        <div className="max-w-4xl mx-auto text-center bg-white/80 backdrop-blur-sm rounded-2xl sm:rounded-3xl p-6 sm:p-8 md:p-12 lg:p-16 shadow-xl w-full">
           {/* Main Heading - H1 */}
           <h1 className="text-foreground mb-6 animate-fade-in">
             Sambelar Móveis
