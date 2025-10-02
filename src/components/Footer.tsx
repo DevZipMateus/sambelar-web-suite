@@ -1,6 +1,5 @@
 import { Instagram, Phone, Mail } from "lucide-react";
 import logo from "@/assets/logo.png";
-import montesiteLogo from "@/assets/montesite-logo.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -102,15 +101,6 @@ const Footer = () => {
               © {currentYear} Sambelar Móveis. Todos os direitos reservados.
             </p>
             <p>CNPJ: 55.968.234/0001-19</p>
-            <a
-              href="https://egestor.com.br"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 hover:opacity-80 transition-smooth"
-            >
-              <span className="text-primary-foreground/60">Feito por</span>
-              <img src={montesiteLogo} alt="MonteSite" className="h-5 w-auto" />
-            </a>
           </div>
         </div>
       </div>
