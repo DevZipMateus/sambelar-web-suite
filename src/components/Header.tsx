@@ -32,10 +32,8 @@ const Header = () => {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-smooth ${
-        isScrolled
-          ? "bg-background/95 backdrop-blur-md shadow-elegant"
-          : "bg-background/80 backdrop-blur-sm"
+      className={`fixed top-0 left-0 right-0 z-50 transition-smooth bg-black ${
+        isScrolled ? "shadow-elegant" : ""
       }`}
     >
       <div className="container mx-auto px-4">
@@ -48,25 +46,25 @@ const Header = () => {
           <nav className="hidden md:flex items-center gap-8">
             <button
               onClick={() => scrollToSection("inicio")}
-              className="text-foreground hover:text-primary transition-smooth font-medium"
+              className="text-white hover:text-accent transition-smooth font-medium"
             >
               Início
             </button>
             <button
               onClick={() => scrollToSection("sobre")}
-              className="text-foreground hover:text-primary transition-smooth font-medium"
+              className="text-white hover:text-accent transition-smooth font-medium"
             >
               Sobre
             </button>
             <button
               onClick={() => scrollToSection("produtos")}
-              className="text-foreground hover:text-primary transition-smooth font-medium"
+              className="text-white hover:text-accent transition-smooth font-medium"
             >
               Produtos
             </button>
             <button
               onClick={() => scrollToSection("contato")}
-              className="text-foreground hover:text-primary transition-smooth font-medium"
+              className="text-white hover:text-accent transition-smooth font-medium"
             >
               Contato
             </button>
@@ -87,43 +85,43 @@ const Header = () => {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden p-2 hover:bg-muted rounded-lg transition-smooth"
+            className="md:hidden p-2 hover:bg-white/10 rounded-lg transition-smooth"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             aria-label="Menu"
           >
             {isMobileMenuOpen ? (
-              <X className="h-6 w-6 text-foreground" />
+              <X className="h-6 w-6 text-white" />
             ) : (
-              <Menu className="h-6 w-6 text-foreground" />
+              <Menu className="h-6 w-6 text-white" />
             )}
           </button>
         </div>
 
         {/* Mobile Navigation */}
         {isMobileMenuOpen && (
-          <nav className="md:hidden py-4 border-t border-border">
+          <nav className="md:hidden py-4 border-t border-white/20">
             <div className="flex flex-col gap-4">
               <button
                 onClick={() => scrollToSection("inicio")}
-                className="text-foreground hover:text-primary transition-smooth font-medium text-left py-2"
+                className="text-white hover:text-accent transition-smooth font-medium text-left py-2"
               >
                 Início
               </button>
               <button
                 onClick={() => scrollToSection("sobre")}
-                className="text-foreground hover:text-primary transition-smooth font-medium text-left py-2"
+                className="text-white hover:text-accent transition-smooth font-medium text-left py-2"
               >
                 Sobre
               </button>
               <button
                 onClick={() => scrollToSection("produtos")}
-                className="text-foreground hover:text-primary transition-smooth font-medium text-left py-2"
+                className="text-white hover:text-accent transition-smooth font-medium text-left py-2"
               >
                 Produtos
               </button>
               <button
                 onClick={() => scrollToSection("contato")}
-                className="text-foreground hover:text-primary transition-smooth font-medium text-left py-2"
+                className="text-white hover:text-accent transition-smooth font-medium text-left py-2"
               >
                 Contato
               </button>
