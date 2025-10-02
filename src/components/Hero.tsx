@@ -17,7 +17,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-black/50" />
 
       <div className="container mx-auto px-4 relative z-10">
-        <div className="max-w-4xl mx-auto text-center">
+        <div className="max-w-4xl mx-auto text-center bg-white/80 backdrop-blur-sm rounded-3xl p-8 md:p-12 lg:p-16 shadow-xl">
           {/* Main Heading - H1 */}
           <h1 className="text-foreground mb-6 animate-fade-in">
             Sambelar Móveis
