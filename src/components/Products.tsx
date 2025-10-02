@@ -1,5 +1,6 @@
 import { Bed, UtensilsCrossed, Sofa, Baby, Armchair, Box } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
+import { GalleryCarousel } from "./GalleryCarousel";
 
 const products = [
   {
@@ -53,6 +54,9 @@ const Products = () => {
               Móveis de qualidade para todos os ambientes da sua casa
             </p>
           </div>
+
+          {/* Gallery Carousel */}
+          <GalleryCarousel />
 
           {/* Products Grid */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
