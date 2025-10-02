@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           {/* Brand */}
           <div>
-            <img src={logo} alt="Sambelar Móveis" className="h-36 w-auto mb-4 brightness-0 invert" />
+            <img src={logo} alt="Sambelar Móveis" className="h-36 w-auto mb-4" />
             <p className="text-primary-foreground/80 mb-4">
               Há mais de 30 anos entregando qualidade e conforto para sua casa.
             </p>
