@@ -72,8 +72,8 @@ const Reviews = () => {
             <CarouselContent>
               {reviews.map((review, index) => (
                 <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
-                  <div className="p-2">
-                    <Card className="h-full hover:shadow-elegant transition-smooth">
+                  <div className="p-2 h-full">
+                    <Card className="h-[400px] hover:shadow-elegant transition-smooth flex flex-col">
                       <CardContent className="p-6 flex flex-col h-full">
                         {/* Rating */}
                         <div className="flex gap-1 mb-4">
@@ -83,7 +83,7 @@ const Reviews = () => {
                         </div>
 
                         {/* Review Text */}
-                        <p className="text-muted-foreground mb-4 flex-grow text-sm leading-relaxed">
+                        <p className="text-muted-foreground mb-4 flex-grow text-sm leading-relaxed overflow-y-auto">
                           "{review.text}"
                         </p>
 
