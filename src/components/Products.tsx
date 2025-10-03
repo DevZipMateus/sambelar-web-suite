@@ -111,6 +111,24 @@ const Products = () => {
       </div>
     </section>
 
+    {/* Featured Product: Roupeiro Espetacular */}
+    <ProductDetail
+      name="Roupeiro Espetacular"
+      images={[
+        "/produtos/roupeiro-espetacular-1.jpg",
+        "/produtos/roupeiro-espetacular-2.jpg",
+      ]}
+      description={[
+        "100% MDF",
+        "Disponível nas cores: Cinamomo, Cinamomo/Off, Branco",
+      ]}
+      dimensions={{
+        height: "2,31m",
+        width: "2,34m",
+        depth: "0,55m",
+      }}
+    />
+
     {/* Featured Product: Roupeiro Joia */}
     <ProductDetail
       name="Roupeiro Joia"
