@@ -111,6 +111,29 @@ const Products = () => {
       </div>
     </section>
 
+    {/* Featured Product: Roupeiro Valéria */}
+    <ProductDetail
+      name="Roupeiro Valéria"
+      images={[
+        "/produtos/roupeiro-valeria-1.jpg",
+        "/produtos/roupeiro-valeria-2.jpg",
+        "/produtos/roupeiro-valeria-3.jpg",
+        "/produtos/roupeiro-valeria-4.jpg",
+      ]}
+      description={[
+        "Pés em madeira",
+        "Peças de 15mm",
+        "Ótima divisória e profundidade (não amassa casacos)",
+        "Cabideiros e acessórios metálicos",
+        "Corrediça telescópica nas gavetas",
+      ]}
+      dimensions={{
+        height: "2,36m",
+        width: "2,10m",
+        depth: "0,56m",
+      }}
+    />
+
     {/* Featured Product: Roupeiro Malbec */}
     <ProductDetail
       name="Roupeiro Malbec"
