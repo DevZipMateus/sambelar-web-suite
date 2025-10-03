@@ -1,6 +1,7 @@
 import { Bed, UtensilsCrossed, Sofa, Baby, Armchair, Box } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { GalleryCarousel } from "./GalleryCarousel";
+import ProductDetail from "./ProductDetail";
 
 const products = [
   {
@@ -43,20 +44,21 @@ const products = [
 
 const Products = () => {
   return (
-    <section id="produtos" className="py-12 sm:py-16 md:py-24 bg-background w-full overflow-x-hidden">
-      <div className="container mx-auto px-4 sm:px-6 w-full">
-        <div className="max-w-6xl mx-auto">
-          {/* Section Header */}
-          <div className="text-center mb-16">
-            <h2 className="text-foreground mb-4">Nossos produtos</h2>
-            <div className="w-24 h-1 bg-accent mx-auto mb-6" />
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Móveis de qualidade para todos os ambientes da sua casa
-            </p>
-          </div>
+    <>
+      <section id="produtos" className="py-12 sm:py-16 md:py-24 bg-background w-full overflow-x-hidden">
+        <div className="container mx-auto px-4 sm:px-6 w-full">
+          <div className="max-w-6xl mx-auto">
+            {/* Section Header */}
+            <div className="text-center mb-16">
+              <h2 className="text-foreground mb-4">Nossos produtos</h2>
+              <div className="w-24 h-1 bg-accent mx-auto mb-6" />
+              <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+                Móveis de qualidade para todos os ambientes da sua casa
+              </p>
+            </div>
 
-          {/* Gallery Carousel */}
-          <GalleryCarousel />
+            {/* Gallery Carousel */}
+            <GalleryCarousel />
 
           {/* Products Grid */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -97,7 +99,7 @@ const Products = () => {
               Encontrou o que procura? Entre em contato para conhecer nossa loja!
             </p>
             <a
-              href="https://wa.me/5511949680764"
+              href="https://wa.me/5511971145712"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-8 py-4 bg-primary hover:bg-primary/90 text-primary-foreground rounded-xl font-semibold text-lg shadow-elegant transition-smooth"
@@ -108,6 +110,37 @@ const Products = () => {
         </div>
       </div>
     </section>
+
+    {/* Featured Product: Roupeiro Jupter */}
+    <ProductDetail
+      name="Roupeiro Jupter"
+      images={[
+        "/produtos/roupeiro-jupter-1.jpg",
+        "/produtos/roupeiro-jupter-2.jpg",
+        "/produtos/roupeiro-jupter-3.jpg",
+        "/produtos/roupeiro-jupter-4.jpg",
+        "/produtos/roupeiro-jupter-5.jpg",
+      ]}
+      description={[
+        "Portas, Moldura e Frente Gavetas em MDF",
+        "Corrediça telescópica 40cm",
+        "Profundidade da gaveta 40cm",
+        "Abertura total da gaveta",
+        "Suporte cabide metálico",
+        "Puxadores de madeira",
+        "Gaveta com chave",
+        "Produzido com chapa de 15mm",
+        "Pé opcional",
+        "Trilho antiquedas de portas",
+      ]}
+      dimensions={{
+        height: "2,18m",
+        heightWithFeet: "2,28m",
+        width: "1,35m",
+        depth: "0,52m",
+      }}
+    />
+    </>
   );
 };
 
