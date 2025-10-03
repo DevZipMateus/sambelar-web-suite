@@ -111,6 +111,30 @@ const Products = () => {
       </div>
     </section>
 
+    {/* Featured Product: Roupeiro Malbec */}
+    <ProductDetail
+      name="Roupeiro Malbec"
+      images={[
+        "/produtos/roupeiro-malbec-1.jpg",
+        "/produtos/roupeiro-malbec-2.jpg",
+        "/produtos/roupeiro-malbec-3.jpg",
+      ]}
+      description={[
+        "100% MDF",
+        "2 Portas de correr",
+        "Trilhos e cabideiros em alumínio",
+        "Perfil alinhador em aço",
+        "Puxadores em alumínio",
+        "3 Gavetas com corrediças telescópicas",
+        "Roldanas com sistema amortecedor",
+      ]}
+      dimensions={{
+        height: "2,35m",
+        width: "1,40m",
+        depth: "0,54m",
+      }}
+    />
+
     {/* Featured Product: Roupeiro Jupter */}
     <ProductDetail
       name="Roupeiro Jupter"
