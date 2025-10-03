@@ -111,6 +111,27 @@ const Products = () => {
       </div>
     </section>
 
+    {/* Featured Product: Roupeiro Suíça */}
+    <ProductDetail
+      name="Roupeiro Suíça"
+      images={[
+        "/produtos/roupeiro-suica-1.jpg",
+        "/produtos/roupeiro-suica-2.jpg",
+        "/produtos/roupeiro-suica-3.jpg",
+        "/produtos/roupeiro-suica-4.jpg",
+      ]}
+      description={[
+        "Disponível com ou sem kit de pés",
+        "Design elegante e funcional",
+        "Amplo espaço interno",
+      ]}
+      dimensions={{
+        height: "Consultar",
+        width: "Consultar",
+        depth: "Consultar",
+      }}
+    />
+
     {/* Featured Product: Roupeiro Espetacular */}
     <ProductDetail
       name="Roupeiro Espetacular"
