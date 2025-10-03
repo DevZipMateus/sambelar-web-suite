@@ -46,11 +46,11 @@ const ProductDetail = ({ name, images, description, dimensions }: ProductDetailP
                         className="border-2 overflow-hidden cursor-pointer hover:border-primary/50 transition-smooth"
                         onClick={() => setSelectedImage(image)}
                       >
-                        <CardContent className="p-0">
+                        <CardContent className="p-4 flex items-center justify-center bg-muted/30">
                           <img
                             src={image}
                             alt={`${name} - Visualização ${index + 1}`}
-                            className="w-full h-auto object-cover aspect-square"
+                            className="w-full h-auto object-contain max-h-[500px]"
                             loading="lazy"
                           />
                         </CardContent>
@@ -73,7 +73,7 @@ const ProductDetail = ({ name, images, description, dimensions }: ProductDetailP
                     <img
                       src={image}
                       alt={`${name} - Miniatura ${index + 1}`}
-                      className="w-full h-full object-cover aspect-square"
+                      className="w-full h-full object-contain aspect-square bg-muted/30 p-1"
                       loading="lazy"
                     />
                   </div>
