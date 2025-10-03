@@ -111,6 +111,39 @@ const Products = () => {
       </div>
     </section>
 
+    {/* Featured Product: Roupeiro Joia */}
+    <ProductDetail
+      name="Roupeiro Joia"
+      images={[
+        "/produtos/roupeiro-joia-1.jpg",
+        "/produtos/roupeiro-joia-2.jpg",
+        "/produtos/roupeiro-joia-3.jpg",
+        "/produtos/roupeiro-joia-4.jpg",
+        "/produtos/roupeiro-joia-5.jpg",
+      ]}
+      description={[
+        "100% MDF",
+        "Produzido com chapa de 15mm e 25mm",
+        "Corrediça telescópica 40cm",
+        "Profundidade da gaveta 40cm",
+        "Abertura total da gaveta",
+        "Gavetas com puxador",
+        "Cabideiro em alumínio",
+        "Suporte de cabideiro metálico",
+        "Portas com puxadores em alumínio",
+        "Roldanas com mola",
+        "Sistema de Guia Folga Zero",
+        "Espelho com película de segurança",
+        "Pé opcional",
+      ]}
+      dimensions={{
+        height: "2,30m",
+        heightWithFeet: "2,40m",
+        width: "2,42m",
+        depth: "0,62m",
+      }}
+    />
+
     {/* Featured Product: Roupeiro Valéria */}
     <ProductDetail
       name="Roupeiro Valéria"
