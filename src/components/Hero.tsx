@@ -27,7 +27,7 @@ const Hero = () => {
 
           {/* Subtitle - H2 */}
           <h2 className="text-2xl md:text-3xl lg:text-4xl text-muted-foreground mb-8 font-normal animate-fade-in">
-            Há mais de 30 anos entregando qualidade e conforto para sua casa!
+            Há mais de 35 anos entregando qualidade e conforto para sua casa!
           </h2>
 
           <p className="text-lg md:text-xl text-muted-foreground mb-12 max-w-2xl mx-auto animate-fade-in">
@@ -77,7 +77,7 @@ const Hero = () => {
           {/* Trust indicators */}
           <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-3xl mx-auto">
             <div className="text-center animate-fade-in">
-              <div className="text-4xl font-bold text-accent mb-2">30+</div>
+              <div className="text-4xl font-bold text-accent mb-2">35+</div>
               <div className="text-muted-foreground">Anos de experiência</div>
             </div>
             <div className="text-center animate-fade-in">
