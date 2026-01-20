@@ -18,14 +18,14 @@ const About = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
             <div className="space-y-6">
               <h3 className="text-primary">
-                Tradição e qualidade desde 1994
+                Tradição e qualidade desde 1989
               </h3>
               <p className="text-muted-foreground text-lg leading-relaxed">
                 A Sambelar Móveis nasceu com o propósito de oferecer móveis de qualidade excepcional
                 para transformar cada ambiente da sua casa em um espaço especial.
               </p>
               <p className="text-muted-foreground text-lg leading-relaxed">
-                Com mais de 30 anos de experiência no mercado, construímos nossa reputação baseada
+                Com mais de 35 anos de experiência no mercado, construímos nossa reputação baseada
                 em três pilares fundamentais: qualidade dos produtos, atendimento personalizado e
                 compromisso com a satisfação dos nossos clientes.
               </p>
@@ -78,7 +78,7 @@ const About = () => {
                       Confiança e tradição
                     </h3>
                     <p className="text-muted-foreground">
-                      Mais de 30 anos construindo relacionamentos duradouros com nossos clientes
+                      Mais de 35 anos construindo relacionamentos duradouros com nossos clientes
                     </p>
                   </div>
                 </div>
