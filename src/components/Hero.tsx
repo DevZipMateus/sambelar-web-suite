@@ -18,8 +18,8 @@ const Hero = () => {
       {/* Dark overlay for text readability */}
       <div className="absolute inset-0 bg-black/50" />
 
-      <div className="container mx-auto px-6 sm:px-8 md:px-12 relative z-10 w-full">
-        <div className="max-w-4xl mx-auto text-center bg-white/80 backdrop-blur-sm rounded-2xl sm:rounded-3xl p-8 sm:p-10 md:p-12 lg:p-16 shadow-xl w-full">
+      <div className="container mx-auto px-4 sm:px-6 relative z-10 w-full">
+        <div className="max-w-4xl mx-auto text-center bg-white/80 backdrop-blur-sm rounded-2xl sm:rounded-3xl p-6 sm:p-8 md:p-12 lg:p-16 shadow-xl w-full">
           {/* Main Heading - H1 */}
           <h1 className="text-foreground mb-6 animate-fade-in">
             Sambelar Móveis
